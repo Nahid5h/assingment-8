@@ -1,6 +1,6 @@
 [
     {
-        "bookId": "JON001",
+        "bookId": 1,
         "bookName": "Echoes of Eternity",
         "author": "Jon Jonson",
         "image": "https://i.ibb.co/HdXsG8T/kindpng-7318921-2x.png",
@@ -13,7 +13,7 @@
         "yearOfPublishing": 2023
     },
     {
-        "bookId": "JON002",
+        "bookId": 2,
         "bookName": "Shadows of Silence",
         "author": "Jon Jonson",
         "image": "https://i.ibb.co/JQgf16k/kindpng-1064993-2x.png",
@@ -26,7 +26,7 @@
         "yearOfPublishing": 2020
     },
     {
-        "bookId": "JON003",
+        "bookId": 3,
         "bookName": "Whispers in the Wind",
         "author": "Jon Jonson",
         "image": "https://i.ibb.co/Lt4zps5/kindpng-4022054-1-2x.png",
@@ -39,7 +39,7 @@
         "yearOfPublishing": 2018
     },
     {
-        "bookId": "JON004",
+        "bookId": 4,
         "bookName": "Realm of Reflections",
         "author": "Jon Jonson",
         "image": "https://i.ibb.co/frKxkdk/kindpng-7318921-2x.png",
@@ -52,7 +52,7 @@
         "yearOfPublishing": 2021
     },
     {
-        "bookId": "JON005",
+        "bookId":5,
         "bookName": "Eternal Embers",
         "author": "Jon Jonson",
         "image": "https://i.ibb.co/vP9DXzg/kindpng-2193744-1-2x.png",
@@ -65,7 +65,7 @@
         "yearOfPublishing": 2019
     },
     {
-        "bookId": "JON006",
+        "bookId":6,
         "bookName": "Chronicles of Chaos",
         "author": "Jon Jonson",
         "image": "https://i.ibb.co/ThCwgCm/kindpng-5624060-1-2x.png",

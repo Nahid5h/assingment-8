@@ -6,14 +6,16 @@ const Book = ({ book }) => {
     const { bookName,image,author,category,rating ,tags,bookId} = book;
  
     return (
-        <div>
+        <Link to={`/book/${bookId}`}>
+              <div>
             <div className="card h-[700px] bg-base-100 shadow-xl">
                 <figure className="px-10 pt-10">
                     <img className='border py-6 px-12 rounded-2xl bg-[#F3F3F3]'  src={image}  />
                 </figure>
                 <div className="card-body ">
                     <div className='flex justify-between my-3'>
-                        <Link to={`/Book/${bookId}`}><button className='btn rounded-full text-[#23BE0A] text-2xl'><h2>{tags[0]}</h2></button></Link>
+                        
+                        <button className='btn rounded-full text-[#23BE0A] text-2xl'><h2>{tags[0]}</h2></button>
                         <button className='btn rounded-full text-[#23BE0A] text-2xl'><h2>{tags[1]}</h2></button>
                     </div>
                     <h2 className="card-title text-3xl ">{bookName}</h2>
@@ -29,6 +31,8 @@ const Book = ({ book }) => {
                 </div>
             </div>
         </div>
+        </Link>
+      
     );
 };
 
