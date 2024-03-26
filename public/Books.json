@@ -1,0 +1,80 @@
+[
+    {
+        "bookId": "JON001",
+        "bookName": "Echoes of Eternity",
+        "author": "Jon Jonson",
+        "image": "https://i.ibb.co/HdXsG8T/kindpng-7318921-2x.png",
+        "review": "A captivating journey through time and space.",
+        "totalPages": 320,
+        "rating": 4.8,
+        "category": "Science Fiction",
+        "tags": ["Time Travel", "Adventure"],
+        "publisher": "Stellar Publishing House",
+        "yearOfPublishing": 2023
+    },
+    {
+        "bookId": "JON002",
+        "bookName": "Shadows of Silence",
+        "author": "Jon Jonson",
+        "image": "https://i.ibb.co/JQgf16k/kindpng-1064993-2x.png",
+        "review": "A gripping tale of mystery and intrigue.",
+        "totalPages": 280,
+        "rating": 4.5,
+        "category": "Mystery",
+        "tags": ["Suspense", "Detective"],
+        "publisher": "Midnight Books",
+        "yearOfPublishing": 2020
+    },
+    {
+        "bookId": "JON003",
+        "bookName": "Whispers in the Wind",
+        "author": "Jon Jonson",
+        "image": "https://i.ibb.co/Lt4zps5/kindpng-4022054-1-2x.png",
+        "review": "An atmospheric story that will haunt you long after the final page.",
+        "totalPages": 240,
+        "rating": 4.7,
+        "category": "Thriller",
+        "tags": ["Suspense", "Psychological"],
+        "publisher": "Enigma Press",
+        "yearOfPublishing": 2018
+    },
+    {
+        "bookId": "JON004",
+        "bookName": "Realm of Reflections",
+        "author": "Jon Jonson",
+        "image": "https://i.ibb.co/frKxkdk/kindpng-7318921-2x.png",
+        "review": "A thought-provoking exploration of identity and reality.",
+        "totalPages": 360,
+        "rating": 4.6,
+        "category": "Philosophical Fiction",
+        "tags": ["Identity", "Existential"],
+        "publisher": "Insightful Books",
+        "yearOfPublishing": 2021
+    },
+    {
+        "bookId": "JON005",
+        "bookName": "Eternal Embers",
+        "author": "Jon Jonson",
+        "image": "https://i.ibb.co/vP9DXzg/kindpng-2193744-1-2x.png",
+        "review": "A heart-wrenching tale of love and loss.",
+        "totalPages": 300,
+        "rating": 4.9,
+        "category": "Romance",
+        "tags": ["Love", "Tragedy"],
+        "publisher": "Passionate Hearts Publishing",
+        "yearOfPublishing": 2019
+    },
+    {
+        "bookId": "JON006",
+        "bookName": "Chronicles of Chaos",
+        "author": "Jon Jonson",
+        "image": "https://i.ibb.co/ThCwgCm/kindpng-5624060-1-2x.png",
+        "review": "An epic fantasy adventure filled with magic and intrigue.",
+        "totalPages": 400,
+        "rating": 4.8,
+        "category": "Fantasy",
+        "tags": ["Magic", "Epic"],
+        "publisher": "Mythical Press",
+        "yearOfPublishing": 2022
+    }
+]
