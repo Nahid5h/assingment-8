@@ -1,5 +1,6 @@
 import React from 'react';
 import png from '../../assets/pngwing 1.svg'
+import { Link } from 'react-router-dom';
 const Banner = () => {
     return (
         <div>
@@ -11,7 +12,7 @@ const Banner = () => {
                     <div>
                         <h1 className="text-5xl font-bold">Books to freshen up <br /> <br /> your bookshelf</h1>
                         
-                        <button className="btn btn-primary px-14 bg-[#23BE0A] mt-12">View The List</button>
+                       <Link to={`/listedBooks`}> <button className="btn btn-primary px-14 bg-[#23BE0A] mt-12">View The List</button></Link>
                     </div>
                 </div>
             </div>

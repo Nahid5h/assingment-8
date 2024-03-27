@@ -15,6 +15,8 @@ import Home from './componts/Home/Home';
 import ListedBooks from './componts/ListedBooks/ListedBooks';
 import PagesRead from './componts/PagesRead/PagesRead';
 import ViewDetail from './componts/ViewDetail/ViewDetail';
+import ReadBooks from './componts/ReadBooks/ReadBooks';
+import Wishted from './componts/Wishted/Wishted';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -26,11 +28,28 @@ const router = createBrowserRouter([
       },
       {
         path:"/listedBooks",
-        element:<ListedBooks></ListedBooks>
+        element:<ListedBooks></ListedBooks>,
+       
+       children:[
+        {
+          index: true,
+          // path:'read',
+          element:<ReadBooks></ReadBooks>,
+          loader: () => fetch('/Books.json'),
+        },
+        {
+           
+          path:'wish',
+          element:<Wishted></Wishted>,
+          loader: () => fetch('/Books.json'),
+        }
+       ]
+
       },
       {
         path:"/pagesRead",
-        element:<PagesRead></PagesRead>
+        element:<PagesRead></PagesRead>,
+        loader: () => fetch('/Books.json'),
       },
       {
         path:"/book/:bookId",
