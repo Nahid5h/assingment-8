@@ -17,10 +17,12 @@ import PagesRead from './componts/PagesRead/PagesRead';
 import ViewDetail from './componts/ViewDetail/ViewDetail';
 import ReadBooks from './componts/ReadBooks/ReadBooks';
 import Wishted from './componts/Wishted/Wishted';
+import Error from './componts/Error/Error';
 const router = createBrowserRouter([
   {
     path: "/",
     element:<Root></Root>,
+   errorElement:<Error></Error>,
     children:[
       {
         path:"/",
@@ -55,7 +57,8 @@ const router = createBrowserRouter([
         path:"/book/:bookId",
         element:<ViewDetail></ViewDetail>,
         loader:()=> fetch('../Books.json')
-      }
+      },
+     
     ]
  
   },
